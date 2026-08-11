@@ -1,0 +1,114 @@
+{
+  "method": "bobyqa",
+  "mode": "online",
+  "seed": 45,
+  "run_id": "seed_45",
+  "initial_size": 25,
+  "total_budget": 75,
+  "configured_nsolvemax": 50,
+  "configured_continuation_attempt_budget": 50,
+  "optimizer_evaluation_attempts": 50,
+  "optimizer_finite_fem_calls": 50,
+  "optimizer_feasible_fem_calls": 18,
+  "actual_fem_calls": 75,
+  "budget_exhausted": true,
+  "completed": true,
+  "completion_reason": "COMSOL std1 completed after 50 optimizer attempts (50 finite FEM targets; cap 50)",
+  "endpoint_only": false,
+  "convergence_history_available": true,
+  "held_out_validation_size": 50,
+  "validation_seed": 42,
+  "candidate_pool_size": null,
+  "min_distance": null,
+  "optimizer": "COMSOL built-in BOBYQA",
+  "optimizer_random_seed": null,
+  "optimizer_gp_random_seed": null,
+  "comsol_version": "6.3",
+  "model_file": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\surrogate_simulation\\ML surrogate.mph",
+  "model_sha256": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "source_model_write_policy": "read_only; never saved",
+  "model_session_policy": "fresh MPH load for this method-seed run; model removed after run",
+  "shared_initial_source": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\code\\data\\py7_output\\seed_45\\observations.csv",
+  "shared_initial_best_sample_id": "pt_0254",
+  "shared_initial_best_response": 0.0007377404909546,
+  "optimizer_start_sample_id": "pt_0182",
+  "optimizer_start_response": 0.0004663316345163,
+  "optimizer_start_selection": "highest-response shared feasible point with every normalized box-bound margin >= 0.1",
+  "optimizer_start_normalized_box_margin": 0.13017933639576396,
+  "explicit_start_parameters_mm": {
+    "c1": 2.2749618816262673,
+    "r1": 13.70839457186794,
+    "t1": 6.404476590210613,
+    "l1": 8.737846269557812,
+    "l2": 5.912555090088273,
+    "w1": 3.1536740048762133,
+    "h1": 4.414192986219062
+  },
+  "study_tag": "std1",
+  "optimization_feature_tag": "opt",
+  "objective_table_tag": "tbl8",
+  "objective_table_headers": [
+    "c1 (m)",
+    "r1 (m)",
+    "t1 (m)",
+    "l1 (m)",
+    "l2 (m)",
+    "w1 (m)",
+    "h1 (m)",
+    "目标"
+  ],
+  "comsol_reported_study_seconds": 69.0,
+  "timing_definition": "Optimization elapsed time derived from COMSOL's own displayed start/end timestamps in its progress/solver log; not Python wall-clock time",
+  "trajectory_time_allocation": "COMSOL exposes only total continuation time; intermediate finite objective rows are assigned a linear fraction solely for trajectory visualization",
+  "comsol_timing_log_line": "COMSOL progress timestamps: 开始于 2026年7月25日 下午8:56:14。 -> 结束时间：2026年7月25日 下午8:57:23。",
+  "comsol_progress_log": null,
+  "python_orchestration_wall_seconds": 70.54350479999994,
+  "fem_call_count": 75,
+  "fem_call_count_source": "25 shared initial FEM records plus 50 finite objective values in tbl8; blank constrained attempts excluded",
+  "parameter_input_unit": "m",
+  "target_unit": "T",
+  "data_provenance": "Automatically extracted from COMSOL Java API",
+  "design_space_definition": {
+    "parameter_bounds_mm": {
+      "c1": [
+        0.5,
+        5.0
+      ],
+      "r1": [
+        10.0,
+        20.0
+      ],
+      "t1": [
+        0.5,
+        10.0
+      ],
+      "l1": [
+        2.5,
+        20.0
+      ],
+      "l2": [
+        0.5,
+        20.0
+      ],
+      "w1": [
+        0.5,
+        5.0
+      ],
+      "h1": [
+        0.5,
+        5.0
+      ]
+    },
+    "min_manufactured_dimension_mm": 0.5,
+    "coil_bottom_z_mm": 2.0,
+    "axial_fit_constraint": "l1_mm >= h1_mm + coil_bottom_z_mm",
+    "min_r1_minus_c1_mm": 0.0,
+    "max_core_total_height_mm": null,
+    "core_mass_limit_g": 200.0,
+    "coil_mass_limit_g": 50.0,
+    "rho_cu_kg_m3": 8940.0,
+    "rho_core_kg_m3": 7000.0
+  },
+  "design_space_fingerprint": "7c19f05da8d0f8f526ca172bae6f48d0a05d79b894317764f0e29e8c8797cfce",
+  "comsol_progress_log_persisted": false
+}

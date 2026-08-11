@@ -1,0 +1,75 @@
+{
+  "train": {
+    "rmse": 4.232032593449323e-12,
+    "mae": 2.9681941438061233e-12,
+    "r2": 0.9999999999999994
+  },
+  "validation": {
+    "rmse": 4.6798421172802305e-06,
+    "mae": 2.234521524527402e-06,
+    "r2": 0.9992621142424262
+  },
+  "kernel_optimized": "14.7**2 * Matern(length_scale=[827, 40.1, 33.3, 29.6, 42.8, 25, 23.9], nu=2.5) + WhiteKernel(noise_level=2.4e-10)",
+  "run_info": {
+    "input_file": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\code\\data\\py2_output\\output.csv",
+    "n_samples": 250,
+    "n_features": 7,
+    "feature_columns": [
+      "u_c1",
+      "u_r1",
+      "u_t1",
+      "u_l1",
+      "u_l2",
+      "u_w1",
+      "u_h1"
+    ],
+    "target_column": "target",
+    "train_size": 200,
+    "validation_size": 50,
+    "test_size": 0.2,
+    "random_state": 42,
+    "kernel_init": "ConstantKernel * Matern(nu=2.5) + WhiteKernel"
+  },
+  "design_space_definition": {
+    "parameter_bounds_mm": {
+      "c1": [
+        0.5,
+        5.0
+      ],
+      "r1": [
+        10.0,
+        20.0
+      ],
+      "t1": [
+        0.5,
+        10.0
+      ],
+      "l1": [
+        2.5,
+        20.0
+      ],
+      "l2": [
+        0.5,
+        20.0
+      ],
+      "w1": [
+        0.5,
+        5.0
+      ],
+      "h1": [
+        0.5,
+        5.0
+      ]
+    },
+    "min_manufactured_dimension_mm": 0.5,
+    "coil_bottom_z_mm": 2.0,
+    "axial_fit_constraint": "l1_mm >= h1_mm + coil_bottom_z_mm",
+    "min_r1_minus_c1_mm": 0.0,
+    "max_core_total_height_mm": null,
+    "core_mass_limit_g": 200.0,
+    "coil_mass_limit_g": 50.0,
+    "rho_cu_kg_m3": 8940.0,
+    "rho_core_kg_m3": 7000.0
+  },
+  "design_space_fingerprint": "7c19f05da8d0f8f526ca172bae6f48d0a05d79b894317764f0e29e8c8797cfce"
+}

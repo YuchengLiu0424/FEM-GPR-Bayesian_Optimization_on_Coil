@@ -1,0 +1,13 @@
+Parameter,Min_mm,Max_mm,Unit,Role
+c1,0.5,5.0,mm,sampled design variable
+r1,10.0,20.0,mm,sampled design variable
+t1,0.5,10.0,mm,sampled design variable
+l1,2.5,20.0,mm,sampled design variable
+l2,0.5,20.0,mm,sampled design variable
+w1,0.5,5.0,mm,sampled design variable
+h1,0.5,5.0,mm,sampled design variable
+CORE_MASS_LIMIT_G,200.0,200.0,g,constraint
+COIL_MASS_LIMIT_G,50.0,50.0,g,constraint
+MIN_R1_MINUS_C1_MM,0.0,0.0,mm,geometry constraint
+MIN_MANUFACTURED_DIMENSION_MM,0.5,0.5,mm,manufacturing constraint
+COIL_BOTTOM_Z_MM,2.0,2.0,mm,axial fit constraint

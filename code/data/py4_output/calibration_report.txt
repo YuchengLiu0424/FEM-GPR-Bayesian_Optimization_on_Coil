@@ -1,0 +1,16 @@
+Gaussian Process Validation Report
+========================================
+
+RMSE : 0.000005
+MAE  : 0.000002
+R²   : 0.999262
+
+Coverage
+----------------------
+Within ±1σ : 76.00%
+Within ±2σ : 90.00%
+
+Standardized Residual
+----------------------
+Mean : -0.4494
+Std  : 1.6509

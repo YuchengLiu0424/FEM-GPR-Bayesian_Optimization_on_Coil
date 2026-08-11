@@ -1,0 +1,60 @@
+{
+  "solver": "COMSOL",
+  "comsol_version": "6.3",
+  "model_file": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\surrogate_simulation\\ML surrogate.mph",
+  "model_sha256": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "design_file": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\code\\data\\py1_output\\design_points_samples.csv",
+  "design_file_sha256": "544ca5439810ffaa83ada81451bc633bf07f73a58b649e01f8905bda9e557090",
+  "study_tag": "std1",
+  "probe_tag": "pev1",
+  "target_expression": "mf.normB",
+  "target_unit": "T",
+  "expected_samples": 250,
+  "generation_mode": "full_dataset",
+  "design_space_definition": {
+    "parameter_bounds_mm": {
+      "c1": [
+        0.5,
+        5.0
+      ],
+      "r1": [
+        10.0,
+        20.0
+      ],
+      "t1": [
+        0.5,
+        10.0
+      ],
+      "l1": [
+        2.5,
+        20.0
+      ],
+      "l2": [
+        0.5,
+        20.0
+      ],
+      "w1": [
+        0.5,
+        5.0
+      ],
+      "h1": [
+        0.5,
+        5.0
+      ]
+    },
+    "min_manufactured_dimension_mm": 0.5,
+    "coil_bottom_z_mm": 2.0,
+    "axial_fit_constraint": "l1_mm >= h1_mm + coil_bottom_z_mm",
+    "min_r1_minus_c1_mm": 0.0,
+    "max_core_total_height_mm": null,
+    "core_mass_limit_g": 200.0,
+    "coil_mass_limit_g": 50.0,
+    "rho_cu_kg_m3": 8940.0,
+    "rho_core_kg_m3": 7000.0
+  },
+  "design_space_fingerprint": "7c19f05da8d0f8f526ca172bae6f48d0a05d79b894317764f0e29e8c8797cfce",
+  "completed": true,
+  "output_file": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\code\\data\\py2_output\\output.csv",
+  "n_samples": 250,
+  "generation_time_seconds": 492.81560379999996
+}

@@ -1,0 +1,7 @@
+{
+  "checks": 328,
+  "passed": 328,
+  "failed": 0,
+  "failures": [],
+  "audit_scope": "current manuscript quantitative claims checked against current archived outputs; no COMSOL solve in this script"
+}

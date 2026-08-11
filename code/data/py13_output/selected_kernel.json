@@ -1,0 +1,20 @@
+{
+  "selected_kernel": "matern52_ls5",
+  "selection_rule": "Lowest mean held-out NLPD across five fixed 200/50 splits; RMSE is the tie-breaker.",
+  "candidate_kernels": [
+    "matern12_ls0p5",
+    "matern32_ls0p5",
+    "matern52_ls0p5",
+    "matern52_ls2",
+    "matern52_ls5",
+    "matern52_free",
+    "rbf_ls0p5",
+    "rbf_ls2",
+    "rbf_ls5",
+    "rbf_free"
+  ],
+  "input_scaling": "[0, 1] bounds from the archived design space",
+  "outcome_transform": "BoTorch Standardize(m=1)",
+  "lengthscale_prior_screen": "Gamma(concentration=3, mean in {0.5, 2, 5}) plus an unregularized MLE candidate",
+  "fixed_fem_noise_variance_T2": 1e-14
+}

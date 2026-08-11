@@ -1,0 +1,52 @@
+# Personal notes and third-party literature
+/notes/
+/literature/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# COMSOL temporary, recovery, and lock files
+*.mph.lock
+*.mph.autosave
+*.mph.tmp
+*.mph~
+*.recovery
+
+# Generic temporary files
+*.bak
+*.swp
+*.tmp
+~$*
+# Unsubmitted manuscript (retain project-owned figures)
+/paper/*
+!/paper/figure/
+!/paper/figure/**

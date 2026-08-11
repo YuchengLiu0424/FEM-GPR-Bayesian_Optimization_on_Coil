@@ -1,0 +1,21 @@
+method,run_id,seed,optimizer,actual_fem_calls,optimizer_evaluation_attempts,optimizer_finite_fem_calls,best_target_T,comsol_reported_optimization_seconds,timing_source,output_directory
+bobyqa,seed_42,42,BOBYQA,75,50,50,0.0009500783677399967,69.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\bobyqa\seed_42
+cobyla,seed_42,42,COBYLA,34,22,9,0.0009652278456861697,32.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\cobyla\seed_42
+ego,seed_42,42,EGO,75,50,50,0.0006649756394158973,67.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\ego\seed_42
+nelder_mead,seed_42,42,Nelder-Mead,75,50,50,0.0007798335674837069,82.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\nelder_mead\seed_42
+bobyqa,seed_43,43,BOBYQA,75,50,50,0.0009208221174258025,66.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\bobyqa\seed_43
+cobyla,seed_43,43,COBYLA,37,23,12,0.0009512790646693416,33.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\cobyla\seed_43
+ego,seed_43,43,EGO,76,51,51,0.0007377404909546,61.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\ego\seed_43
+nelder_mead,seed_43,43,Nelder-Mead,75,50,50,0.0007798335674837069,72.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\nelder_mead\seed_43
+bobyqa,seed_44,44,BOBYQA,75,50,50,0.0009607266141848219,68.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\bobyqa\seed_44
+cobyla,seed_44,44,COBYLA,34,19,9,0.0009183489011880752,29.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\cobyla\seed_44
+ego,seed_44,44,EGO,75,50,50,0.000739853066790521,59.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\ego\seed_44
+nelder_mead,seed_44,44,Nelder-Mead,75,50,50,0.0006364900212947847,71.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\nelder_mead\seed_44
+bobyqa,seed_45,45,BOBYQA,75,50,50,0.0009736687637918971,69.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\bobyqa\seed_45
+cobyla,seed_45,45,COBYLA,34,19,9,0.0009181815904586846,27.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\cobyla\seed_45
+ego,seed_45,45,EGO,75,50,50,0.0007377404909546,58.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\ego\seed_45
+nelder_mead,seed_45,45,Nelder-Mead,75,50,50,0.0007377404909546,70.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\nelder_mead\seed_45
+bobyqa,seed_46,46,BOBYQA,75,50,50,0.0009098002315224209,65.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\bobyqa\seed_46
+cobyla,seed_46,46,COBYLA,41,40,16,0.0009494316664465095,92.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\cobyla\seed_46
+ego,seed_46,46,EGO,75,50,50,0.0007377404909546,58.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\ego\seed_46
+nelder_mead,seed_46,46,Nelder-Mead,75,50,50,0.0007798335674837071,70.0,COMSOL progress/solver log,D:\Documents\中科院电工所暑研\ieecas_coil-paper\code\data\py8_output\nelder_mead\seed_46

@@ -1,0 +1,37 @@
+{
+  "mode": "online",
+  "required_methods": [
+    "expected_improvement_bo",
+    "bobyqa",
+    "cobyla",
+    "ego",
+    "nelder_mead"
+  ],
+  "required_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "methods": [
+    "bobyqa",
+    "cobyla",
+    "ego",
+    "expected_improvement_bo",
+    "nelder_mead"
+  ],
+  "runs_per_method": {
+    "bobyqa": 5,
+    "cobyla": 5,
+    "ego": 5,
+    "expected_improvement_bo": 5,
+    "nelder_mead": 5
+  },
+  "optimization_protocol": "fixed FEM-evaluation budget with no predeclared response target or target-based stopping rule",
+  "time_comparison_policy": "every method: the same py11-estimated 25-point initial-FEM cost for its shared seed plus its recorded continuation wall time",
+  "py11_initial_fem_reference_seed": 42,
+  "confidence_interval": "two-sided 95% Student-t interval; unavailable for n=1",
+  "inference_policy": "paired t-test for >=2 common seeds; otherwise Welch t-test only when both methods have >=2 runs; n=1 comparisons are descriptive",
+  "n_rows": 1080
+}

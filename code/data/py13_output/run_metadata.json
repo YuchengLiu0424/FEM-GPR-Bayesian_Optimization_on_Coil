@@ -1,0 +1,24 @@
+{
+  "offline_only": true,
+  "calls_comsol": false,
+  "finite_candidate_pool": true,
+  "interpretation_limit": "Results compare policies only on the archived labeled FEM pool and do not estimate continuous-domain prospective performance.",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "initial_size": 25,
+  "continuation_budget": 50,
+  "total_budget": 75,
+  "selected_kernel": "matern52_ls5",
+  "methods": [
+    "random",
+    "sklearn_mean",
+    "sklearn_ei",
+    "botorch_mean",
+    "botorch_logei"
+  ]
+}

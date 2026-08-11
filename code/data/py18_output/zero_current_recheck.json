@@ -1,0 +1,44 @@
+{
+  "fresh_model_session_per_case": true,
+  "source_model_saved": false,
+  "source_sha256_before": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "source_sha256_after": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "cases": [
+    {
+      "Japply_A_per_m2": 0.0,
+      "target_T": 0.0,
+      "stored_geometry_parameters": {
+        "c1": "2.5[mm]",
+        "r1": "16[mm]",
+        "t1": "5[mm]",
+        "l1": "10[mm]",
+        "l2": "10[mm]",
+        "w1": "5[mm]",
+        "h1": "5[mm]"
+      },
+      "coil_current_expression": "h1*w1*Japply",
+      "coil_domains": [
+        3
+      ],
+      "probe_expression": "mf.normB"
+    },
+    {
+      "Japply_A_per_m2": 1000000.0,
+      "target_T": 0.00077695813999002,
+      "stored_geometry_parameters": {
+        "c1": "2.5[mm]",
+        "r1": "16[mm]",
+        "t1": "5[mm]",
+        "l1": "10[mm]",
+        "l2": "10[mm]",
+        "w1": "5[mm]",
+        "h1": "5[mm]"
+      },
+      "coil_current_expression": "h1*w1*Japply",
+      "coil_domains": [
+        3
+      ],
+      "probe_expression": "mf.normB"
+    }
+  ]
+}

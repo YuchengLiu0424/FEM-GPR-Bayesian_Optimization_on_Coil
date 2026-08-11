@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "source": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\code\\data\\py7_output\\seed_42\\observations.csv",
+  "source_py7_method": "expected_improvement_bo",
+  "source_py7_initial_size": 25,
+  "source_py7_total_budget": 75,
+  "expected_fem_observations": 50,
+  "initial_cost_definition": "sum of 50 pure FEM evaluations divided by 2",
+  "startup_and_shutdown_time_included": false,
+  "allow_target_drift": false,
+  "completed_samples": 50,
+  "completed": true,
+  "stationary_point_evaluation": {
+    "study_tag": "std1",
+    "study_feature_types": {
+      "opt": "Optimization",
+      "stat": "Stationary"
+    },
+    "disabled_optimization_features": [
+      "opt"
+    ],
+    "active_stationary_features": [
+      "stat"
+    ]
+  },
+  "n_samples": 50,
+  "total_50_fem_seconds": 98.05614600000445,
+  "estimated_initial_25_fem_seconds": 49.02807300000222,
+  "fem_seconds_mean": 1.961122920000089,
+  "fem_seconds_std": 0.7619794949583352,
+  "fem_seconds_min": 1.5441488000014942,
+  "fem_seconds_max": 6.657163399999263,
+  "target_consistent_samples": 50,
+  "target_inconsistent_samples": 0,
+  "valid_for_fem_timing": true,
+  "valid_for_historical_target_reproduction": true
+}

@@ -1,0 +1,11 @@
+method_a,method_b,n_a,n_b,mean_final_difference_a_minus_b,test_design,test_statistic,p_value,effect_size_name,effect_size,common_seed_pairs,inference_note
+bobyqa,cobyla,5,5,2.525405243231733e-06,paired_common_seed,0.12980193527801154,0.9029887586112245,cohen_dz,0.05804919017853238,5,Paired t-test on common seeds.
+bobyqa,ego,5,5,0.0002194091831189441,paired_common_seed,10.867483394861441,0.0004069203273569947,cohen_dz,4.860086323052075,5,Paired t-test on common seeds.
+bobyqa,expected_improvement_bo,5,5,3.3849771122468363e-05,paired_common_seed,4.5268125969848,0.010603074489478913,cohen_dz,2.0244521376520743,5,Paired t-test on common seeds.
+bobyqa,nelder_mead,5,5,0.0002002729759928868,paired_common_seed,5.554830349730861,0.005140594377418611,cohen_dz,2.484195653095427,5,Paired t-test on common seeds.
+cobyla,ego,5,5,0.00021688377787571237,paired_common_seed,9.802737292347045,0.0006070394883875802,cohen_dz,4.383917390252043,5,Paired t-test on common seeds.
+cobyla,expected_improvement_bo,5,5,3.132436587923663e-05,paired_common_seed,2.437197672900961,0.0714239594195008,cohen_dz,1.089947934242169,5,Paired t-test on common seeds.
+cobyla,nelder_mead,5,5,0.00019774757074965507,paired_common_seed,9.316207032402628,0.0007388406836609959,cohen_dz,4.166334443382772,5,Paired t-test on common seeds.
+ego,expected_improvement_bo,5,5,-0.00018555941199647574,paired_common_seed,-11.286479744262062,0.000351174981527655,cohen_dz,-5.047467186968882,5,Paired t-test on common seeds.
+ego,nelder_mead,5,5,-1.91362071260573e-05,paired_common_seed,-0.5349887769671263,0.6210140229460909,cohen_dz,-0.23925425449959364,5,Paired t-test on common seeds.
+expected_improvement_bo,nelder_mead,5,5,0.00016642320487041844,paired_common_seed,5.414658404390111,0.0056369767637740415,cohen_dz,2.4215088534313676,5,Paired t-test on common seeds.

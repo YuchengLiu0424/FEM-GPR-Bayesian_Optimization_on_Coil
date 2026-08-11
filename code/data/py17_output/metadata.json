@@ -1,0 +1,18 @@
+{
+  "purpose": "mesh and outer-domain checks for BOBYQA and COBYLA winners; no re-optimization",
+  "source_model": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\surrogate_simulation\\ML surrogate.mph",
+  "source_sha256_before": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "source_sha256_after": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "source_model_saved": false,
+  "mesh_levels": [
+    3,
+    2,
+    1
+  ],
+  "domain_sizes_mm": [
+    200.0,
+    300.0,
+    400.0
+  ],
+  "fresh_stationary_solves": 10
+}

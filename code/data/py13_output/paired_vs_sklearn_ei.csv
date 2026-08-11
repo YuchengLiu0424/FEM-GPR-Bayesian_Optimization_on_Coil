@@ -1,0 +1,5 @@
+method,reference,mean_final_delta_T,wins_final,ties_final,paired_p_final,mean_auc_delta_T_calls,wins_auc,paired_p_auc
+random,sklearn_ei,-2.45580243154e-05,0,4,0.3739009663000589,-0.0025073301108574975,0,0.21283915120782945
+sklearn_mean,sklearn_ei,0.0,0,5,,0.0,0,
+botorch_mean,sklearn_ei,0.0,0,5,,1.2355269105840394e-05,1,0.37390096630005887
+botorch_logei,sklearn_ei,0.0,0,5,,1.2355269105840394e-05,1,0.37390096630005887

@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "source": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\code\\data\\py7_output\\seed_42\\observations.csv",
+  "source_py7_method": "expected_improvement_bo",
+  "source_py7_initial_size": 25,
+  "source_py7_total_budget": 75,
+  "expected_fem_observations": 50,
+  "initial_cost_definition": "sum of 50 pure FEM evaluations divided by 2",
+  "startup_and_shutdown_time_included": false,
+  "allow_target_drift": false,
+  "completed_samples": 50,
+  "completed": true,
+  "stationary_point_evaluation": {
+    "study_tag": "std1",
+    "study_feature_types": {
+      "opt": "Optimization",
+      "stat": "Stationary"
+    },
+    "disabled_optimization_features": [
+      "opt"
+    ],
+    "active_stationary_features": [
+      "stat"
+    ]
+  }
+}

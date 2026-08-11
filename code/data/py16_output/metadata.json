@@ -1,0 +1,10 @@
+{
+  "purpose": "selected-design field, core B-range, ROI-profile, and fixed-current validation",
+  "source_model": "D:\\Documents\\CAS-IEE\\ieecas_coil-paper\\surrogate_simulation\\ML surrogate.mph",
+  "source_sha256_before": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "source_sha256_after": "1c261222bc6281419b1b1d2b24e510c30acc6dbff83d4ceff3f10949d66cfcd3",
+  "source_model_saved": false,
+  "common_total_current_A": 24.234042102471737,
+  "fixed_current_choice": "minimum original total current among the three selected designs",
+  "fresh_stationary_solves": 6
+}
