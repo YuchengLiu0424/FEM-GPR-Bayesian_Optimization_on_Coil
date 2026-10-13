@@ -46,7 +46,5 @@ env/
 *.swp
 *.tmp
 ~$*
-# Unsubmitted manuscript (retain project-owned figures)
+# Unsubmitted manuscript
 /paper/*
-!/paper/figure/
-!/paper/figure/**

@@ -4,8 +4,7 @@ This repository contains reproducibility artifacts for a physics-constrained ele
 
 ## Repository contents
 
-- `code/data/`: sampling, FEM automation, surrogate modeling, optimization, validation, sensitivity, and claim-audit scripts with their outputs.
-- `paper/figure/`: project-owned figures generated from the current experiments.
+- `code/data/`: sampling, FEM automation, surrogate modeling, optimization, validation, sensitivity, and claim-audit scripts with their reproducibility outputs and figures.
 - `surrogate_simulation/`: the source COMSOL `.mph` model.
 - `resources/`: project-owned supporting resources, when present.
 
